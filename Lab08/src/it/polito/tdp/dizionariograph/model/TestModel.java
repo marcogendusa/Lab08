@@ -8,6 +8,8 @@ public class TestModel {
 		
 		Model model = new Model();
 		
+		//System.out.println(model.controllo("casa", "cars"));
+		
 		model.createGraph(4);
 		System.out.println(String.format("**Grafo creato**\n"));
 		
